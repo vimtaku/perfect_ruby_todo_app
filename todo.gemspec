@@ -20,6 +20,9 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", "~> 3.2.0"
   spec.add_dependency "sqlite3", "~> 1.3.0"
+  spec.add_dependency "sinatra", "~> 1.4.0"
+  spec.add_dependency "haml", "~> 4.0.0"
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "yard", "~> 0.8"
